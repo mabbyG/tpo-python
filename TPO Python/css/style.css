@@ -1,48 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-header{
+
+header {
     position: sticky;
     top: 0;
 }
-.nav{
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1600585152220-90363fe7e115?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGtpdGNoZW58ZW58MHx8fHwxNjQ1MTIyODAy&ixlib=rb-1.2.1&q=80&w=2000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
     background-color: rgb(44, 44, 44);
-    border-bottom: 0.1rem solid green;
+    border-bottom: 0.1rem solid rgba(240, 216, 5, 0.856);
     height: 10vh;
     align-items: center;
-}  
-.logo{
-    height: 7vh;
-    width: 3.5vw;
-    margin: 1rem;
-    border-radius: 50%;
-    box-shadow: 0.5rem 0.5rem 0.5rem green;
-
 }
-.flex-container > ul{
+
+.logo {
+    height: 9vh;
+    width: 6.0vw;
+    margin: 1rem;
+    border-radius: 45%;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(223, 192, 57);
+}
+
+.flex-container>ul {
     list-style-type: none;
 }
-li{
+
+li {
     display: inline-block;
     margin: 1.5rem;
     font-size: 1.5rem;
 }
-li > a{
+
+li>a {
     text-decoration: none;
     color: white;
-
 }
-li > a:hover{
+
+li>a:hover {
     color: gold;
 }
-.footer{
+
+.footer {
     height: 10vh;
     width: 100%;
     background-color: rgb(44, 44, 44);
@@ -52,42 +67,31 @@ li > a:hover{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    border-top: 0.1rem solid green;
+    border-top: 0.1rem solid rgb(240, 216, 0, 856);
 }
-.footer p{
+
+.footer p {
     color: white;
 }
-.flex-container-sec{
+
+.flex-container-sec {
     display: flex;
-    outline: 0.2rem solid black;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
-    border-radius: 5%;
 }
-.s1{
-    background-color: rgb(155, 209, 85);
-    display: flex;
-    justify-content: space-between;
+
+.s2 {
+    background-color: rgba(215, 204, 200);
 }
-.s2{
-    background-color: rgb(5, 209, 85);
+
+.s3 {
+    background-color: rgb(255, 171, 145);
 }
-.s3{
-    background-color: rgb(173, 45, 45);
+
+.s4 {
+    background-color: rgb(255, 224, 130);
 }
-.s4{
-    background-color: rgb(247, 199, 67);
-}
-.s5{
-    background-color: rgb(80, 241, 247);
-}
-#slogan{
-    width:50px ;
-    height:50px ;
-}
-s#imagen{
-    width:50px ;
-    height:50px ;
-    margin: 50px;
-    padding: 10px;
+
+.s5 {
+    background-color: rgb(178, 235, 242);
 }
